@@ -958,6 +958,62 @@
         "name": "assets\\ValueRed_120x8.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/HealthBarPanel_160x41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HealthBarPanel_160x41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BlackBigCircleBoxWithBorder_27x27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BlackBigCircleBoxWithBorder_27x27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HeartIcons_32x32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HeartIcons_32x32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mochila.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mochila.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MenusBox_34x34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MenusBox_34x34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CornerKnot_14x14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CornerKnot_14x14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HighlightSlot_26x26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HighlightSlot_26x26.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -989,7 +1045,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8993607583666658,
+        "zoomFactor": 1.21216419721738,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1015,15 +1071,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 41,
           "keepRatio": true,
           "layer": "",
-          "name": "Pontuação",
-          "persistentUuid": "5912ef3c-ba29-4d7f-9fcb-82745b6603de",
-          "width": 96,
-          "x": 320,
-          "y": 32,
-          "zOrder": 3,
+          "name": "BarHealth",
+          "persistentUuid": "63d4f82f-5ae5-49b4-b974-97ab90f81461",
+          "width": 161,
+          "x": 32,
+          "y": 55,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1032,15 +1088,210 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 8,
           "keepRatio": true,
           "layer": "",
-          "name": "Slots",
-          "persistentUuid": "29ec8f90-d99b-497f-b7de-fdbfd913b925",
-          "width": 128,
-          "x": 288,
+          "name": "BarraVida",
+          "persistentUuid": "bc9ac14a-b09c-4c1a-86f0-9fd71ea66015",
+          "width": 111,
+          "x": 65,
+          "y": 72,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Circulo",
+          "persistentUuid": "3243ee4d-b044-430b-a8ef-bb024b9d7a8e",
+          "width": 42,
+          "x": 22,
+          "y": 55,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coração",
+          "persistentUuid": "f0299cb4-6ebd-4f79-bd73-8fff03c214e1",
+          "width": 0,
+          "x": 26,
+          "y": 61,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MenuBox",
+          "persistentUuid": "5b33cc92-c193-4276-bfde-c093834a2ef3",
+          "width": 0,
+          "x": 606,
           "y": 448,
-          "zOrder": 5,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mochila",
+          "persistentUuid": "1bc780db-8754-4f8c-b6d0-31416a78f1d9",
+          "width": 0,
+          "x": 608,
+          "y": 448,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ItemSlots",
+          "persistentUuid": "ad2b075f-7a03-40c0-b500-24d963a45e34",
+          "width": 0,
+          "x": 315,
+          "y": 448,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ItemSlots",
+          "persistentUuid": "c9a488ec-e168-4875-a59d-8200b716f5ac",
+          "width": 0,
+          "x": 355,
+          "y": 448,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ItemSlots",
+          "persistentUuid": "f219f5a7-025e-4375-b18c-dbdf1329bf3d",
+          "width": 0,
+          "x": 395,
+          "y": 448,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ItemSlots",
+          "persistentUuid": "f4e2899f-0a6b-4538-a91c-dd63e1c0857b",
+          "width": 0,
+          "x": 275,
+          "y": 448,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "70cdec42-acb1-4217-b533-d8f7730fe32f",
+          "width": 0,
+          "x": 180,
+          "y": 52,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "b49bd0b0-5a10-4391-b705-3a134648da61",
+          "width": 0,
+          "x": 180,
+          "y": 85,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "b93da691-7a21-455a-ac95-8d59e54838e1",
+          "width": 84,
+          "x": 218,
+          "y": 160,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "6c9221fa-9e8d-4cb2-982c-803b6b0d57c5",
+          "width": 84,
+          "x": 218,
+          "y": 243,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3556,52 +3807,42 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Pontuação",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
+          "height": 8,
+          "name": "BarraVida",
+          "texture": "assets\\ValueRed_120x8.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 120,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "string": "Pontos: 0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Pontos: 0",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 41,
+          "name": "BarHealth",
+          "texture": "assets\\HealthBarPanel_160x41.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 160,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 27,
+          "name": "Circulo",
+          "texture": "assets\\BlackBigCircleBoxWithBorder_27x27.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 27,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         },
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "Slots",
-          "texture": "assets\\RectangleBox_96x96.jpg",
+          "name": "Coração",
+          "texture": "assets\\HeartIcons_32x32.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -3611,10 +3852,54 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "BarraVida",
-          "texture": "assets\\ValueRed_120x8.png",
+          "name": "Mochila",
+          "texture": "assets\\Mochila.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 34,
+          "name": "MenuBox",
+          "texture": "assets\\MenusBox_34x34.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 34,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "ItemSlots",
+          "texture": "assets\\RectangleBox_96x96.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 14,
+          "name": "CornerKnot",
+          "texture": "assets\\CornerKnot_14x14.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 14,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 96,
+          "name": "Inventario",
+          "texture": "assets\\RectangleBox_96x96.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 96,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -3627,16 +3912,34 @@
             "objectName": "Test"
           },
           {
-            "objectName": "Slots"
-          },
-          {
             "objectName": "Food"
           },
           {
-            "objectName": "Pontuação"
+            "objectName": "BarraVida"
           },
           {
-            "objectName": "BarraVida"
+            "objectName": "BarHealth"
+          },
+          {
+            "objectName": "Circulo"
+          },
+          {
+            "objectName": "Coração"
+          },
+          {
+            "objectName": "Mochila"
+          },
+          {
+            "objectName": "MenuBox"
+          },
+          {
+            "objectName": "ItemSlots"
+          },
+          {
+            "objectName": "Inventario"
+          },
+          {
+            "objectName": "CornerKnot"
           }
         ]
       },
@@ -4129,10 +4432,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
