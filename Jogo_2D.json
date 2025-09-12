@@ -1014,6 +1014,22 @@
         "name": "assets\\HighlightSlot_26x26.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Food.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Food.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Food.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Food.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_Food.png2.png\"}",
+        "name": "assets\\Food.png2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1045,7 +1061,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.21216419721738,
+        "zoomFactor": 0.9610368693714834,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1263,18 +1279,86 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 270,
           "customSize": true,
           "depth": 1,
-          "height": 86,
+          "height": 84,
           "keepRatio": true,
           "layer": "",
           "name": "Inventario",
-          "persistentUuid": "b93da691-7a21-455a-ac95-8d59e54838e1",
+          "persistentUuid": "6c9221fa-9e8d-4cb2-982c-803b6b0d57c5",
           "width": 84,
-          "x": 218,
-          "y": 160,
-          "zOrder": 19,
+          "x": -376,
+          "y": 215,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "58265261-583b-4a73-a168-087e7b5a1328",
+          "width": 84,
+          "x": -376,
+          "y": 131,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "80dcf705-b703-4a3d-8122-8f82cabeb5d1",
+          "width": 96,
+          "x": -304,
+          "y": 215,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "6a946436-71cb-488a-b057-b3b3bf9e51bd",
+          "width": 96,
+          "x": -298,
+          "y": 137,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "304c7406-2a4c-45fd-82b0-364c753e8603",
+          "width": 96,
+          "x": -131,
+          "y": 215,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1287,11 +1371,224 @@
           "keepRatio": true,
           "layer": "",
           "name": "Inventario",
-          "persistentUuid": "6c9221fa-9e8d-4cb2-982c-803b6b0d57c5",
+          "persistentUuid": "92870791-2617-4ea9-ae3f-5309b9d130c9",
           "width": 84,
-          "x": 218,
-          "y": 243,
-          "zOrder": 19,
+          "x": -203,
+          "y": 215,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "1cde1c8f-be4f-42c7-b110-a83790047ab5",
+          "width": 84,
+          "x": -203,
+          "y": 131,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "6eaed5d5-4bba-4ac0-a8a2-d3650683d832",
+          "width": 96,
+          "x": -125,
+          "y": 137,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "6bdee05e-5189-4ecc-bfd8-057a829d9669",
+          "width": 82,
+          "x": -202,
+          "y": 286,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Inventario",
+          "persistentUuid": "f4914aec-6164-4408-a737-aae8948f719b",
+          "width": 86,
+          "x": -121,
+          "y": 287,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "3135f360-caef-418d-814d-0295e49f1699",
+          "width": 0,
+          "x": -47,
+          "y": 128,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "3c2af150-f674-4e8f-a7f0-aae4436d6490",
+          "width": 0,
+          "x": -46,
+          "y": 357,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "49d740cd-2513-468a-a78e-0736907f8abc",
+          "width": 0,
+          "x": -205,
+          "y": 358,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "0dead464-30bd-4ebd-aae3-1d0e6666c528",
+          "width": 0,
+          "x": -206,
+          "y": 128,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "5702d92b-541b-41c9-beb0-1c69367df498",
+          "width": 0,
+          "x": -220,
+          "y": 128,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "9f2f555f-720c-48c0-b7f5-311bba7840e3",
+          "width": 0,
+          "x": -379,
+          "y": 129,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "23746c4d-b5a5-4056-b26b-a02e2316d686",
+          "width": 0,
+          "x": -379,
+          "y": 287,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CornerKnot",
+          "persistentUuid": "37fd3420-3876-4aaf-b352-60e18655b466",
+          "width": 0,
+          "x": -220,
+          "y": 287,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Food",
+          "persistentUuid": "70a1aaa0-4b71-4f0c-bac4-b9470c5b7c00",
+          "width": 31,
+          "x": 481,
+          "y": 129,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3790,11 +4087,11 @@
         },
         {
           "assetStoreId": "",
-          "height": 72,
+          "height": 32,
           "name": "Food",
-          "texture": "assets\\Pão.png",
+          "texture": "assets\\Food.png2",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 72,
+          "width": 32,
           "variables": [
             {
               "name": "PãoColetado",
@@ -4321,23 +4618,50 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Pontuação",
-                "Text",
-                "=",
-                "\"Pontos: 1\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
                 "Food",
                 ""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"i\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         }
