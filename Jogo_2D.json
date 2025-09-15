@@ -1077,7 +1077,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8141881203710012,
+        "zoomFactor": 0.8416428125373212,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1615,7 +1615,7 @@
           "depth": 1,
           "height": 236,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Inventario",
           "name": "BackgroundInv",
           "persistentUuid": "ba94d0da-c949-4fcc-a8cb-b0c8f09aeb5a",
           "width": 157,
@@ -1632,13 +1632,13 @@
           "depth": 1,
           "height": 238,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Inventario",
           "name": "BackgroundInv",
           "persistentUuid": "7e506f09-4bc7-42ce-b490-54c52383a1be",
           "width": 166,
           "x": 374,
           "y": 547,
-          "zOrder": 36,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1649,7 +1649,7 @@
           "depth": 1,
           "height": 166,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Inventario",
           "name": "BackgroundInv",
           "persistentUuid": "dae6dc1a-4215-4ed1-a76e-907869dc0ff9",
           "width": 168,
@@ -4266,18 +4266,7 @@
           "width": 96,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "bottomEdgeAnchor": 0,
-              "leftEdgeAnchor": 0,
-              "name": "Anchor",
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 0,
-              "topEdgeAnchor": 0,
-              "type": "AnchorBehavior::AnchorBehavior",
-              "useLegacyBottomAndRightAnchors": false
-            }
-          ]
+          "behaviors": []
         },
         {
           "assetStoreId": "",
@@ -4339,6 +4328,39 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Inventario",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "BackgroundInv",
+                    "Inventario"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -4997,10 +5019,6 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior"
-        },
-        {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
         },
@@ -5050,7 +5068,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8700232859857397,
+        "zoomFactor": 0.7876290101673852,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8660,102 +8678,6 @@
             "textR": 0
           },
           "comment": "Inventário"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"i\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "Hidden",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "=",
-                    "115"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "Hidden",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "=",
-                    "660"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "Hidden",
-                    "Toggle",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
