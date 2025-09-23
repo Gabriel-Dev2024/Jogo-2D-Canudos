@@ -1046,6 +1046,22 @@
         "name": "NewTiledSprite2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Apple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Apple.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Food2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Food2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1055,7 +1071,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Inventory",
+      "type": "structure",
+      "children": []
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1080,7 +1102,16 @@
         "zoomFactor": 0.8416428125373212,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Items",
+          "objects": [
+            {
+              "name": "Food"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -1212,7 +1243,13 @@
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -1228,7 +1265,13 @@
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 2
+            }
+          ]
         },
         {
           "angle": 0,
@@ -1244,7 +1287,13 @@
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 3
+            }
+          ]
         },
         {
           "angle": 0,
@@ -4161,9 +4210,10 @@
           "width": 32,
           "variables": [
             {
-              "name": "PãoColetado",
+              "name": "Quantity",
+              "persistentUuid": "68925d52-6e89-4acb-af61-1726844504e2",
               "type": "number",
-              "value": 0
+              "value": 1
             }
           ],
           "effects": [],
@@ -4242,7 +4292,13 @@
           "texture": "assets\\RectangleBox_96x96.jpg",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "variables": [],
+          "variables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": []
         },
@@ -4284,6 +4340,17 @@
           ],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Apple",
+          "texture": "assets\\Food2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -4294,6 +4361,9 @@
           },
           {
             "objectName": "Food"
+          },
+          {
+            "objectName": "Apple"
           },
           {
             "objectName": "BarraVida"
@@ -4721,45 +4791,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Test",
-                "Food",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Food",
-                "PãoColetado",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Food",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -4894,6 +4925,100 @@
                 "",
                 ""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Adicionar Estrutura do Inventario"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "ItemSlots",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Inventory[ItemSlots.SlotNumber].Name",
+                    "=",
+                    "\"Empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Inventory[ItemSlots.SlotNumber].Quantity",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pegar Item do Chão"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Test",
+                "Items",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Add Item"
             }
           ]
         }
@@ -8861,7 +8986,128 @@
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Cena sem título",
+      "name": "Add Item",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "VariableChildCount(Inventory)",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "ValidSpaceFound",
+                            "=",
+                            "\"Empty\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Inventory[SlotNumber].Name",
+                            "=",
+                            "\"Empty\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "ValidSpaceFound",
+                            "True",
+                            "Items.ObjectName()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Inventory[SlotNumber].Quantity",
+                            "=",
+                            "Items.Quantity"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "SlotNumber",
+                            "+",
+                            "Items.Quantity"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "SlotNumber",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Items",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "ValidSpaceFound",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": []
 }
