@@ -1323,7 +1323,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8416428125373212,
+        "zoomFactor": 0.5468750000000074,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1347,6 +1347,16 @@
       "variables": [
         {
           "name": "Wave",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "EnemiesSpawned",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "EnemiesRemaining",
           "type": "number",
           "value": 1
         }
@@ -4616,6 +4626,9 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -4623,12 +4636,9 @@
               "customIsometryAngle": 30,
               "deceleration": 800,
               "ignoreDefaultControls": true,
-              "isFolded": true,
               "maxSpeed": 200,
               "movementAngleOffset": 0,
-              "name": "TopDownMovement",
               "rotateObject": true,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "useLegacyTurnBack": false,
               "viewpoint": "TopDown"
             }
@@ -6247,6 +6257,17 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Inimigos",
+                "\"SpawnTimer\"",
+                ">=",
+                "7"
+              ]
             }
           ],
           "actions": [
@@ -6259,8 +6280,113 @@
                 "Wave",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "EnemiesSpawned",
+                "*",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "EnemiesSpawned",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "EnemiesRemaining",
+                "=",
+                "Variable(EnemiesToSpawn)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "\"SpawnTimer\"",
+                    ">",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesSpawned",
+                    "<",
+                    "Variable(EnemiesToSpawn)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Inimigos",
+                    "443",
+                    "25",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesSpawned",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "\"SpawnTimer\""
+                  ]
+                }
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
