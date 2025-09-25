@@ -1359,6 +1359,11 @@
           "name": "EnemiesRemaining",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "EnemiesToSpawn",
+          "type": "number",
+          "value": 10
         }
       ],
       "instances": [
@@ -4621,6 +4626,11 @@
               "name": "EnemiesToSpawn",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 10
             }
           ],
           "effects": [],
@@ -6379,14 +6389,113 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Soldado",
+                    "Health",
+                    "<=",
+                    "0"
+                  ]
+                }
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Soldado",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "EnemiesRemaining",
+                "-",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesRemaining",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesSpawned",
+                    "=",
+                    "Variable(EnemiesToSpawn)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ObjectVariablePush2"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "",
+                    "Wave"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesToSpawn",
+                    "*",
+                    "Variable(Wave) * 5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesSpawned",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SpawnTimer\""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
