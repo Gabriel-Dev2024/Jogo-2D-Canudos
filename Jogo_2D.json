@@ -1526,6 +1526,11 @@
           "name": "EnemiesRemaining",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "EnemiesToSpawn",
+          "type": "number",
+          "value": 10
         }
       ],
       "instances": [
@@ -4576,8 +4581,9 @@
           "variables": [
             {
               "name": "Wave",
+              "persistentUuid": "fc187ad9-0bbe-414e-9779-615e7035aa18",
               "type": "number",
-              "value": 1
+              "value": 8
             },
             {
               "name": "EnemiesRemaining",
@@ -4586,8 +4592,20 @@
             },
             {
               "name": "EnemiesToSpawn",
+              "persistentUuid": "36094f61-27b4-4c27-b1be-bb7377486dc7",
               "type": "number",
-              "value": 1
+              "value": 5
+            },
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "EnemiesSpawned",
+              "persistentUuid": "a5820c9e-83a6-4fcf-8572-706be270be4e",
+              "type": "number",
+              "value": 5
             }
           ],
           "effects": [],
@@ -6343,29 +6361,32 @@
           "actions": [
             {
               "type": {
-                "value": "ObjectVariablePush2"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Inimigos",
                 "Wave",
-                ""
+                "=",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "EnemiesSpawned",
-                "*",
-                "5"
+                "Inimigos",
+                "EnemiesToSpawn",
+                "=",
+                "Variable(Wave) * 5"
               ]
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
+                "Inimigos",
                 "EnemiesSpawned",
                 "=",
                 "0"
@@ -6373,12 +6394,22 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "SetNumberObjectVariable"
               },
               "parameters": [
+                "Inimigos",
                 "EnemiesRemaining",
                 "=",
                 "Variable(EnemiesToSpawn)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Inimigos",
+                "\"SpawnTimer\""
               ]
             }
           ],
@@ -6393,15 +6424,16 @@
                   "parameters": [
                     "Inimigos",
                     "\"SpawnTimer\"",
-                    ">",
+                    ">=",
                     "7"
                   ]
                 },
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
+                    "Inimigos",
                     "EnemiesSpawned",
                     "<",
                     "Variable(EnemiesToSpawn)"
@@ -6423,17 +6455,29 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
+                    "Inimigos",
                     "EnemiesSpawned",
+                    "+",
+                    "1 "
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "EnemiesRemaining",
                     "+",
                     "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "PauseObjectTimer"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
                     "Inimigos",
@@ -6449,13 +6493,25 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Soldado",
+                    "Health",
+                    "<=",
+                    "0"
+                  ]
+                }
               ]
             }
           ],
+<<<<<<< HEAD
           "actions": []
         },
         {
@@ -6487,6 +6543,102 @@
             }
           ],
           "actions": []
+=======
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Inimigos",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Inimigos",
+                "EnemiesRemaining",
+                "-",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "EnemiesRemaining",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "EnemiesSpawned",
+                    "=",
+                    "Variable(EnemiesToSpawn)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "Wave",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Inimigos",
+                    "EnemiesToSpawn",
+                    "=",
+                    "Variable(Wave) * 5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesSpawned",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SpawnTimer\""
+                  ]
+                }
+              ]
+            }
+          ]
+>>>>>>> d9cebd240194570d5c4ef102b2dffa255761d279
         }
       ],
       "layers": [
