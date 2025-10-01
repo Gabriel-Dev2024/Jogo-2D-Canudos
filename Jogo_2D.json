@@ -1489,13 +1489,116 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
           "name": "Square White Slider Thumb.png"
         }
+      },
+      {
+        "file": "assets/Captura de tela 2025-09-25 194636.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Captura de tela 2025-09-25 194636.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Captura de tela 2025-09-25 194413.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Captura de tela 2025-09-25 194413.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Captura de tela 2025-09-25 194522.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Captura de tela 2025-09-25 194522.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Captura de tela 2025-09-25 194620.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Captura de tela 2025-09-25 194620.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Captura de tela 2025-09-25 194544.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Captura de tela 2025-09-25 194544.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SandLightScaleUp_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SandLightScaleUp_0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Transition",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Transition"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -1542,7 +1645,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3553434558817038,
+        "zoomFactor": 0.27253598967729714,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1977,6 +2080,22 @@
           "x": -704,
           "y": -416,
           "zOrder": -8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Transition",
+          "name": "Transition",
+          "persistentUuid": "28a6a99c-fc07-42c3-84f4-6f1978d278d0",
+          "width": 0,
+          "x": 1504,
+          "y": -640,
+          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5603,7 +5722,7 @@
           "assetStoreId": "",
           "height": 540,
           "name": "Map1",
-          "texture": "Captura de tela 2025-09-25 194413.png",
+          "texture": "assets\\Captura de tela 2025-09-25 194413.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 960,
           "variables": [],
@@ -5614,7 +5733,7 @@
           "assetStoreId": "",
           "height": 540,
           "name": "Map2",
-          "texture": "Captura de tela 2025-09-25 194522.png",
+          "texture": "assets\\Captura de tela 2025-09-25 194522.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 960,
           "variables": [],
@@ -5625,7 +5744,7 @@
           "assetStoreId": "",
           "height": 540,
           "name": "Map3",
-          "texture": "Captura de tela 2025-09-25 194544.png",
+          "texture": "assets\\Captura de tela 2025-09-25 194544.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 960,
           "variables": [],
@@ -5636,7 +5755,7 @@
           "assetStoreId": "",
           "height": 540,
           "name": "Map4",
-          "texture": "Captura de tela 2025-09-25 194620.png",
+          "texture": "assets\\Captura de tela 2025-09-25 194620.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 960,
           "variables": [],
@@ -5647,7 +5766,7 @@
           "assetStoreId": "",
           "height": 540,
           "name": "Map5",
-          "texture": "Captura de tela 2025-09-25 194636.png",
+          "texture": "assets\\Captura de tela 2025-09-25 194636.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 960,
           "variables": [],
@@ -5658,18 +5777,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Cacto",
-          "texture": "SandLightScaleUp_0.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Barreira",
-          "texture": "AREIA GRANDE QUADRADO.png",
+          "texture": "assets\\SandLightScaleUp_0.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -5744,9 +5852,6 @@
           },
           {
             "objectName": "Soldado"
-          },
-          {
-            "objectName": "Barreira"
           }
         ]
       },
@@ -5763,23 +5868,20 @@
               ]
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Inventario",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "BackgroundInv",
-                    "Inventario"
-                  ]
-                }
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                "1",
+                "\"Circular\"",
+                "\"Backward\"",
+                "",
+                ""
               ]
             }
           ]
@@ -6806,6 +6908,59 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transition",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -6816,6 +6971,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
         },
         {
           "name": "Flippable",
@@ -10630,6 +10789,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -10671,7 +10834,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.9618831640285173,
+        "zoomFactor": 0.6903856367178065,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10885,6 +11048,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Transition",
+          "name": "Transition",
+          "persistentUuid": "7052be31-04bc-4748-9310-a3a2877799ae",
+          "width": 0,
+          "x": 736,
+          "y": -224,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -10901,8 +11080,8 @@
             "scale": 4,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
-            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -10944,8 +11123,8 @@
             "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
-            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -10987,8 +11166,8 @@
             "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
-            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -11030,8 +11209,8 @@
             "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
-            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -11060,8 +11239,8 @@
             "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
-            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -11090,8 +11269,8 @@
             "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
-            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -11144,8 +11323,8 @@
             "scale": 2,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
-            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -11303,6 +11482,17 @@
                 "GlobalVariable(Settings.Music)",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.5",
+                "\"Transition\"",
+                ""
+              ]
             }
           ]
         },
@@ -11425,6 +11615,38 @@
               "parameters": [
                 "Play",
                 "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                "1",
+                "\"Circular\"",
+                "\"Forward\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
                 ""
               ]
             }
@@ -11657,6 +11879,59 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transition",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -11667,6 +11942,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
         },
         {
           "name": "Flippable",
@@ -26854,6 +27133,859 @@
           ]
         }
       ]
+    },
+    {
+      "author": "Westboy31",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "Flash and transition painter",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1vdmllLWZpbHRlciIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xOCA0TDIwIDdIMTdMMTUgNEgxM0wxNSA3SDEyTDEwIDRIOEwxMCA3SDdMNSA0SDRDMi45IDQgMiA0LjkgMiA2TDIgMThDMiAxOS4xIDIuOSAyMCA0IDIwSDIwQzIxLjEgMjAgMjIgMTkuMSAyMiAxOFY0SDE4TTExLjI1IDE1LjI1TDEwIDE4TDguNzUgMTUuMjVMNiAxNEw4Ljc1IDEyLjc1TDEwIDEwTDExLjI1IDEyLjc1TDE0IDE0TDExLjI1IDE1LjI1TTE2Ljk0IDExLjk0TDE2IDE0TDE1LjA2IDExLjk0TDEzIDExTDE1LjA2IDEwLjA2TDE2IDhMMTYuOTQgMTAuMDZMMTkgMTFMMTYuOTQgMTEuOTRaIiAvPjwvc3ZnPg==",
+      "name": "FlashTransitionPainter",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg",
+      "shortDescription": "Paint transition effects with a plain color.",
+      "version": "0.2.0",
+      "description": [
+        "Paint transition effects",
+        "- Fade in, fade out",
+        "- Right to left",
+        "- Top to bottom",
+        "- Circular",
+        "",
+        "A blur effect can be added to the painter layer to smooth the transition."
+      ],
+      "origin": {
+        "identifier": "FlashTransitionPainter",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "flash",
+        "transition",
+        "effect"
+      ],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Paint all over the screen a color for a period of time.",
+          "fullName": "Flash and transition painter",
+          "name": "FlashTransitionPainter",
+          "objectType": "PrimitiveDrawing::Drawer",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PrimitiveDrawing::Drawer",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FlashTransitionPainter::FlashTransitionPainter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Ensure shape painter properties are set correctly for this extension to work.\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::ClearBetweenFrames"
+                      },
+                      "parameters": [
+                        "Object",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::OutlineSize"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::UseRelativeCoordinates"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Progress",
+                        "=",
+                        "min(1, Object.ObjectTimerElapsedTime(\"__FlashTransitionPainter_Time\") / Duration)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Drawer::ClearShapes"
+                      },
+                      "parameters": [
+                        "Object"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Progress",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__FlashTransitionPainter_Time\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "Direction",
+                        "=",
+                        "\"Backward\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Progress",
+                        "=",
+                        "1 - Progress"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "Direction",
+                        "=",
+                        "\"Both\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Progress",
+                        "=",
+                        "min(2 * Progress, 2 * (1 - Progress))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Progress",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::FillOpacity"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "MaxOpacity"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Flash",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Type",
+                                "=",
+                                "\"Flash\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PrimitiveDrawing::FillOpacity"
+                              },
+                              "parameters": [
+                                "Object",
+                                "=",
+                                "MaxOpacity * Progress"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PrimitiveDrawing::Rectangle"
+                              },
+                              "parameters": [
+                                "Object",
+                                "CameraBorderLeft(Object.Layer())",
+                                "CameraBorderTop(Object.Layer())",
+                                "CameraBorderRight(Object.Layer())",
+                                "CameraBorderBottom(Object.Layer())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Horizontal",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "from left to right"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Type",
+                                "=",
+                                "\"Horizontal\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PrimitiveDrawing::Rectangle"
+                              },
+                              "parameters": [
+                                "Object",
+                                "CameraBorderLeft(Object.Layer())",
+                                "CameraBorderTop(Object.Layer())",
+                                "lerp(CameraBorderLeft(Object.Layer()), CameraBorderRight(Object.Layer()), Progress)",
+                                "CameraBorderBottom(Object.Layer())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Vertical",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "from top to bottom"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Type",
+                                "=",
+                                "\"Vertical\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PrimitiveDrawing::Rectangle"
+                              },
+                              "parameters": [
+                                "Object",
+                                "CameraBorderLeft(Object.Layer())",
+                                "CameraBorderTop(Object.Layer())",
+                                "CameraBorderRight(Object.Layer())",
+                                "lerp(CameraBorderTop(Object.Layer()), CameraBorderBottom(Object.Layer()), Progress)"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Circular",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "A circle scale up from the middle."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Type",
+                                "=",
+                                "\"Circular\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PrimitiveDrawing::Circle"
+                              },
+                              "parameters": [
+                                "Object",
+                                "CameraCenterX(Object.Layer())",
+                                "CameraCenterY(Object.Layer())",
+                                "(DistanceBetweenPositions(0, 0, CameraWidth(Object.Layer()), CameraHeight(Object.Layer())) / 2 + 1) * Progress"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PrimitiveDrawing::Drawer",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FlashTransitionPainter::FlashTransitionPainter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Paint Effect.",
+              "fullName": "Paint Effect",
+              "functionType": "Action",
+              "name": "PaintEffect",
+              "sentence": "Paint effect type _PARAM4_ of _PARAM0_ with direction _PARAM5_ and color _PARAM2_ for _PARAM3_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Initialise all variables and then activate the behavior.\nIf user doesn't assign value to color and type , we take the last value registred."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BehaviorActivated"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__FlashTransitionPainter_Time\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__FlashTransitionPainter_Time\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Duration",
+                        "=",
+                        "NewDuration"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Direction",
+                        "=",
+                        "NewDirection"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Progress",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Type",
+                            "=",
+                            "\"Flash\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "NewType",
+                            "!=",
+                            "\"\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Type",
+                            "=",
+                            "NewType"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Color",
+                            "!=",
+                            "\"\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PrimitiveDrawing::FillColor"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Color"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "MaxOpacity",
+                            "=",
+                            "255"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "NewMaxOpacity",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "MaxOpacity",
+                            "=",
+                            "NewMaxOpacity"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PrimitiveDrawing::Drawer",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FlashTransitionPainter::FlashTransitionPainter",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Color",
+                  "name": "Color",
+                  "type": "color"
+                },
+                {
+                  "description": "Duration",
+                  "name": "NewDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Type of effect ",
+                  "name": "NewType",
+                  "supplementaryInformation": "[\"Flash\",\"Horizontal\",\"Vertical\",\"Circular\"]",
+                  "type": "stringWithSelector"
+                },
+                {
+                  "description": "Direction transition",
+                  "name": "NewDirection",
+                  "supplementaryInformation": "[\"Both\",\"Forward\",\"Backward\"]",
+                  "type": "stringWithSelector"
+                },
+                {
+                  "description": "End opacity",
+                  "name": "NewMaxOpacity",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Paint effect ended.",
+              "fullName": "Paint effect ended ",
+              "functionType": "Condition",
+              "name": "PaintEffectIsEnd",
+              "sentence": "When paint effect of _PARAM0_ ends",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectTimerPaused"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"__FlashTransitionPainter_Time\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "PrimitiveDrawing::Drawer",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FlashTransitionPainter::FlashTransitionPainter",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "",
+              "hidden": true,
+              "name": "Progress"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "hidden": true,
+              "name": "Duration"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Type of effect ",
+              "hidden": true,
+              "name": "Type"
+            },
+            {
+              "value": "",
+              "type": "String",
+              "label": "Direction of transition",
+              "hidden": true,
+              "name": "Direction"
+            },
+            {
+              "value": "255",
+              "type": "Number",
+              "label": "The maximum of the opacity only for flash",
+              "hidden": true,
+              "name": "MaxOpacity"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": []
