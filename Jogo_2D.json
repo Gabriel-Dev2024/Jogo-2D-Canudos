@@ -1880,6 +1880,26 @@
         "name": "AttackLeft8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "som do jogo/som inicial jogo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "som do jogo\\som inicial jogo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "som do jogo/ataque.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "som do jogo\\ataque.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1973,7 +1993,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.528913289223351,
+        "zoomFactor": 0.6672773998330115,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2212,8 +2232,8 @@
           "name": "Map4",
           "persistentUuid": "7b7404a0-7942-45b1-bf9d-a6b59e8083f2",
           "width": 0,
-          "x": 257,
-          "y": 666,
+          "x": 256,
+          "y": 667,
           "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2448,9 +2468,9 @@
           "behaviors": [
             {
               "isFolded": true,
-              "maxSpeed": 140,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 140,
               "acceleration": 4000,
               "allowDiagonals": false,
               "angleOffset": 0,
@@ -7947,6 +7967,36 @@
                 "=",
                 "\"Down\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "som do jogo\\ataque.mp3",
+                "1",
+                "",
+                "GlobalVariable(Settings.Sound)",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
             }
           ]
         },
@@ -8006,6 +8056,36 @@
                 "Direction",
                 "=",
                 "\"Up\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "som do jogo\\ataque.mp3",
+                "1",
+                "",
+                "GlobalVariable(Settings.Sound)",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -8067,6 +8147,36 @@
                 "=",
                 "\"Right\""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "som do jogo\\ataque.mp3",
+                "1",
+                "",
+                "GlobalVariable(Settings.Sound)",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
             }
           ]
         },
@@ -8126,6 +8236,71 @@
                 "Direction",
                 "=",
                 "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "som do jogo\\ataque.mp3",
+                "1",
+                "",
+                "GlobalVariable(Settings.Sound)",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Action",
+                "=",
+                "\"Idle\""
               ]
             }
           ]
@@ -13727,6 +13902,18 @@
                 "1.5",
                 "\"Transition\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "som do jogo\\som inicial jogo.mp3",
+                "",
+                "GlobalVariable(Settings.Music)",
+                "1"
               ]
             }
           ]
