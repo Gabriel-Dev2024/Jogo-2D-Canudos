@@ -1552,6 +1552,334 @@
         "name": "assets\\8BitOperatorPlus8Regular_Edited3.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Peixe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Peixe.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackDown16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackDown16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackUp8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackUp8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackRight8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackRight8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AttackLeft8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AttackLeft8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1645,7 +1973,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.27253598967729714,
+        "zoomFactor": 1.528913289223351,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1653,7 +1981,13 @@
           "name": "Items",
           "objects": [
             {
-              "name": "Food"
+              "name": "Apple"
+            },
+            {
+              "name": "Pão"
+            },
+            {
+              "name": "Peixe"
             }
           ]
         },
@@ -1778,120 +2112,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "Inventario",
-          "name": "MenuBox",
-          "persistentUuid": "5b33cc92-c193-4276-bfde-c093834a2ef3",
-          "width": 0,
-          "x": 606,
-          "y": 448,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Inventario",
-          "name": "Mochila",
-          "persistentUuid": "1bc780db-8754-4f8c-b6d0-31416a78f1d9",
-          "width": 0,
-          "x": 608,
-          "y": 448,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Inventario",
-          "name": "ItemSlots",
-          "persistentUuid": "ad2b075f-7a03-40c0-b500-24d963a45e34",
-          "width": 0,
-          "x": 315,
-          "y": 448,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "SlotNumber",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Inventario",
-          "name": "ItemSlots",
-          "persistentUuid": "c9a488ec-e168-4875-a59d-8200b716f5ac",
-          "width": 0,
-          "x": 355,
-          "y": 448,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "SlotNumber",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Inventario",
-          "name": "ItemSlots",
-          "persistentUuid": "f219f5a7-025e-4375-b18c-dbdf1329bf3d",
-          "width": 0,
-          "x": 395,
-          "y": 448,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "SlotNumber",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Inventario",
-          "name": "ItemSlots",
-          "persistentUuid": "f4e2899f-0a6b-4538-a91c-dd63e1c0857b",
-          "width": 0,
-          "x": 275,
-          "y": 448,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Inventario",
           "name": "CornerKnot",
           "persistentUuid": "70cdec42-acb1-4217-b533-d8f7730fe32f",
           "width": 0,
@@ -1922,23 +2142,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 31,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Food",
-          "persistentUuid": "70a1aaa0-4b71-4f0c-bac4-b9470c5b7c00",
-          "width": 31,
-          "x": 481,
-          "y": 129,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 15,
           "keepRatio": true,
           "layer": "",
@@ -1946,7 +2149,7 @@
           "persistentUuid": "61467c2e-4e82-48e2-a2c5-f2f9f6df6cde",
           "width": 15,
           "x": 480,
-          "y": 192,
+          "y": 209,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -2099,6 +2302,122 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Inventario",
+          "name": "ItemSlots",
+          "persistentUuid": "01db914f-358c-415c-854e-70c2be48e110",
+          "width": 0,
+          "x": 394,
+          "y": 448,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Inventario",
+          "name": "ItemSlots",
+          "persistentUuid": "a81903ed-0ba1-4e3b-8c27-e523af90f850",
+          "width": 0,
+          "x": 355,
+          "y": 448,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Inventario",
+          "name": "ItemSlots",
+          "persistentUuid": "00697ad1-8553-4b9b-9394-71bfa3b87ce2",
+          "width": 0,
+          "x": 315,
+          "y": 448,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Inventario",
+          "name": "ItemSlots",
+          "persistentUuid": "a25b8990-ca0d-4717-ab07-90c9d945beee",
+          "width": 0,
+          "x": 275,
+          "y": 448,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pão",
+          "persistentUuid": "5badbd8e-fe3f-455f-9726-8bebc140a4b9",
+          "width": 15,
+          "x": 551,
+          "y": 169,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Peixe",
+          "persistentUuid": "e1d54384-58d9-4a15-b703-ea8d48e75301",
+          "width": 17,
+          "x": 527,
+          "y": 210,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2129,6 +2448,7 @@
           "behaviors": [
             {
               "isFolded": true,
+              "maxSpeed": 140,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 4000,
@@ -2138,7 +2458,6 @@
               "customIsometryAngle": 30,
               "deceleration": 4000,
               "ignoreDefaultControls": true,
-              "maxSpeed": 96,
               "movementAngleOffset": 0,
               "rotateObject": false,
               "useLegacyTurnBack": false,
@@ -4589,26 +4908,1212 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "AttackDown",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackDown16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AttackUp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackUp8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AttackRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackRight8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AttackLeft",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AttackLeft8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 20
+                          },
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 19,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Food",
-          "texture": "assets\\Food.png2",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [
-            {
-              "name": "Quantity",
-              "persistentUuid": "68925d52-6e89-4acb-af61-1726844504e2",
-              "type": "number",
-              "value": 1
-            }
-          ],
-          "effects": [],
-          "behaviors": []
         },
         {
           "assetStoreId": "",
@@ -4678,23 +6183,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 32,
-          "name": "ItemSlots",
-          "texture": "assets\\RectangleBox_96x96.jpg",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [
-            {
-              "name": "SlotNumber",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
           "height": 14,
           "name": "CornerKnot",
           "texture": "assets\\CornerKnot_14x14.png",
@@ -4739,9 +6227,22 @@
           "texture": "assets\\Food2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Collected",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -5783,11 +7284,149 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ItemSlots",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Full",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "ItemHeld",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "SlotNumber",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\RectangleBox_96x96.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 8
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Pão",
+          "texture": "assets\\Pão.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [
+            {
+              "name": "Collected",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Peixe",
+          "texture": "assets\\Peixe.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [
+            {
+              "name": "Collected",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Itens",
+            "children": [
+              {
+                "objectName": "Pão"
+              },
+              {
+                "objectName": "Apple"
+              },
+              {
+                "objectName": "Peixe"
+              }
+            ]
+          },
           {
             "folderName": "Cenario",
             "children": [
@@ -5813,12 +7452,6 @@
           },
           {
             "objectName": "Test"
-          },
-          {
-            "objectName": "Food"
-          },
-          {
-            "objectName": "Apple"
           },
           {
             "objectName": "BarraVida"
@@ -6255,100 +7888,244 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Inventário"
+          "comment": "Animação de Ataque"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"i\""
+                "\"Left\""
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "StringObjectVariable"
               },
-              "parameters": []
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Down\""
+              ]
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "Hidden",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "=",
-                    "115"
-                  ]
-                }
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Test",
+                "Animation",
+                "=",
+                "Test.Action+Test.Direction"
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "Hidden",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "=",
-                    "660"
-                  ]
-                }
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Action",
+                "=",
+                "\"Attack\""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "BackgroundInv",
-                    "Hidden",
-                    "Toggle",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Down\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Test",
+                "Animation",
+                "=",
+                "Test.Action+Test.Direction"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Action",
+                "=",
+                "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Test",
+                "Animation",
+                "=",
+                "Test.Action+Test.Direction"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Action",
+                "=",
+                "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Test",
+                "Animation",
+                "=",
+                "Test.Action+Test.Direction"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Action",
+                "=",
+                "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Test",
+                "Direction",
+                "=",
+                "\"Left\""
               ]
             }
           ]
@@ -6451,7 +8228,8 @@
           "comment": "Pegar Item do Chão"
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Items",
           "conditions": [
             {
               "type": {
@@ -6464,16 +8242,484 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Items",
+                "Collected",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "Add Item"
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "ItemSlots",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "SlotNumber",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.X()",
+                    "=",
+                    "ItemSlots.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Sticker",
+                    "ItemSlots",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.ZOrder() + 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "ItemHeld",
+                    "=",
+                    "Items.ObjectName()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Items",
+                    "\"Inventario\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "ItemSlots",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "SlotNumber",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.X()",
+                    "=",
+                    "ItemSlots.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Sticker",
+                    "ItemSlots",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.ZOrder() + 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "ItemHeld",
+                    "=",
+                    "Items.ObjectName()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Items",
+                    "\"Inventario\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "ItemSlots",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "SlotNumber",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.X()",
+                    "=",
+                    "ItemSlots.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Sticker",
+                    "ItemSlots",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.ZOrder() + 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "ItemHeld",
+                    "=",
+                    "Items.ObjectName()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Items",
+                    "\"Inventario\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "ItemSlots",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "SlotNumber",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.X()",
+                    "=",
+                    "ItemSlots.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Sticker",
+                    "ItemSlots",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Items",
+                    "=",
+                    "ItemSlots.ZOrder() + 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "ItemHeld",
+                    "=",
+                    "Items.ObjectName()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "ItemSlots",
+                    "Full",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Items",
+                    "Collected",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Items",
+                    "\"Inventario\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6993,6 +9239,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Sticker",
+          "type": "Sticker::Sticker"
+        },
+        {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
@@ -7018,7 +9268,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7876290101673852,
+        "zoomFactor": 0.9610368693714838,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7087,38 +9337,6 @@
           "x": 26,
           "y": 61,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "MenuBox",
-          "persistentUuid": "5b33cc92-c193-4276-bfde-c093834a2ef3",
-          "width": 0,
-          "x": 606,
-          "y": 448,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Mochila",
-          "persistentUuid": "1bc780db-8754-4f8c-b6d0-31416a78f1d9",
-          "width": 0,
-          "x": 608,
-          "y": 448,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7547,6 +9765,23 @@
           "x": 198,
           "y": 580,
           "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundInv",
+          "persistentUuid": "aac6cab8-86e5-47d7-96f1-e9d6efd4b7f2",
+          "width": 192,
+          "x": 256,
+          "y": 448,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
