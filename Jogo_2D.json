@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 242,
+    "build": 243,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1900,6 +1900,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Arvore 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Arvore 1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1993,8 +2001,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6672773998330115,
-        "windowMask": false
+        "zoomFactor": 0.8416428125373289,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -2045,15 +2054,16 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Test",
           "persistentUuid": "9a283d22-aa44-4902-a2bf-064d46f44b69",
-          "width": 0,
+          "width": 96,
           "x": 320,
-          "y": 224,
+          "y": 192,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2426,15 +2436,32 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 14,
+          "height": 13,
           "keepRatio": true,
           "layer": "",
           "name": "Peixe",
           "persistentUuid": "e1d54384-58d9-4a15-b703-ea8d48e75301",
-          "width": 17,
+          "width": 16,
           "x": 527,
           "y": 210,
           "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 154,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Arvore",
+          "persistentUuid": "e0827f97-e04c-4f5c-8ef5-122687b797ce",
+          "width": 123,
+          "x": 416,
+          "y": -58,
+          "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2467,10 +2494,9 @@
           "effects": [],
           "behaviors": [
             {
-              "isFolded": true,
+              "maxSpeed": 180,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "maxSpeed": 140,
               "acceleration": 4000,
               "allowDiagonals": false,
               "angleOffset": 0,
@@ -7428,6 +7454,66 @@
               "IsDestroyedWithParent": false
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Arvore",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Arvore 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 15
+                          },
+                          {
+                            "x": 34,
+                            "y": 15
+                          },
+                          {
+                            "x": 34,
+                            "y": 47
+                          },
+                          {
+                            "x": 6,
+                            "y": 47
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7467,6 +7553,9 @@
               },
               {
                 "objectName": "Cacto"
+              },
+              {
+                "objectName": "Arvore"
               }
             ]
           },
@@ -9099,6 +9188,24 @@
             "textR": 0
           },
           "comment": "Colisão"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Test",
+                "Arvore",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23505,6 +23612,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -25296,7 +25404,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 397,
@@ -25558,7 +25667,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
@@ -27488,6 +27598,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -29550,7 +29661,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
