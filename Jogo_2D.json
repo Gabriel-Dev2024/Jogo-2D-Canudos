@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 239,
+    "build": 244,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2108,6 +2108,70 @@
         "name": "NewSprite30",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Colisão.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Colisão",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Arvre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Arvre.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CACTO (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CACTO (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cacto 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cacto 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CACTO MINI (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CACTO MINI (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/klipartz.com (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\klipartz.com (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PEPITAS DE OURO (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PEPITAS DE OURO (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Toco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Toco.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2201,8 +2265,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.0615714305220356,
-        "windowMask": false
+        "zoomFactor": 0.6244537826600233,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -2411,7 +2476,7 @@
           "persistentUuid": "34ce57d4-53d5-40d0-a9ae-bcd912d97b1d",
           "width": 960,
           "x": 1216,
-          "y": 132,
+          "y": 128,
           "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2426,8 +2491,8 @@
           "name": "Map3",
           "persistentUuid": "1099867c-918b-49ac-b494-9ffd8e2d8981",
           "width": 0,
-          "x": 1216,
-          "y": 672,
+          "x": 1225,
+          "y": 663,
           "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2442,9 +2507,9 @@
           "name": "Map4",
           "persistentUuid": "7b7404a0-7942-45b1-bf9d-a6b59e8083f2",
           "width": 0,
-          "x": 256,
-          "y": 667,
-          "zOrder": -4,
+          "x": 274,
+          "y": 657,
+          "zOrder": -9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2494,7 +2559,7 @@
           "persistentUuid": "023e450a-933a-44f5-9e64-782f034d8481",
           "width": 2880,
           "x": 256,
-          "y": 1205,
+          "y": 1193,
           "zOrder": -7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2510,8 +2575,8 @@
           "name": "Map5",
           "persistentUuid": "094b24c6-15ea-41c7-a2cc-58055ab21269",
           "width": 960,
-          "x": -704,
-          "y": -416,
+          "x": -686,
+          "y": -418,
           "zOrder": -8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2655,7 +2720,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "0b4cbeff-bd99-4338-88ae-ec2588a9da9f",
           "width": 0,
           "x": 480,
@@ -2688,7 +2753,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "1115dd4c-3ddb-4f07-b9f4-b85874dd7ee4",
           "width": 0,
           "x": 1536,
@@ -2704,7 +2769,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "bb153bc0-6ceb-4259-b495-e5e796e74aa3",
           "width": 0,
           "x": 1728,
@@ -2720,7 +2785,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "6b997b35-dfc7-443e-a005-1c2efd7a7ff8",
           "width": 0,
           "x": 992,
@@ -2736,7 +2801,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "3a371381-62e7-477f-97a9-93dbf4f6ac57",
           "width": 0,
           "x": 320,
@@ -2752,7 +2817,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "df79572a-f524-4a75-ab89-22b29785a477",
           "width": 0,
           "x": 736,
@@ -2768,7 +2833,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "9a8ad64d-792b-497a-9baa-d198b9d04e75",
           "width": 0,
           "x": 1312,
@@ -2784,7 +2849,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "fcd73148-779c-42a9-96f5-c57700958c85",
           "width": 0,
           "x": 1952,
@@ -2800,7 +2865,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "1f2106b6-ea5a-4006-93a9-9d91733dfcf4",
           "width": 0,
           "x": 640,
@@ -2816,7 +2881,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "persistentUuid": "46d1fece-15fa-4f10-ac5c-16e3a8732264",
           "width": 0,
           "x": 896,
@@ -2960,7 +3025,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "b32a7b80-0c02-4e99-b4ed-4f63e50f50d8",
           "width": 0,
           "x": 640,
@@ -2976,7 +3041,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "125b3036-6fa0-4f7f-ac80-898e57f6e2a8",
           "width": 0,
           "x": 224,
@@ -2992,7 +3057,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "2a32d779-f72c-46e2-bbd5-627eaa9a47ca",
           "width": 0,
           "x": 544,
@@ -3008,7 +3073,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "63828af9-12d9-4f65-850a-10f52b5a0b13",
           "width": 0,
           "x": 928,
@@ -3024,7 +3089,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "077f4f5a-ea1e-4fa4-a6e9-ab655933cbb6",
           "width": 0,
           "x": 992,
@@ -3040,7 +3105,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "ffcd4b7d-3f63-435c-b854-bfbf8a9cb9e1",
           "width": 0,
           "x": 992,
@@ -3056,7 +3121,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "80510b74-a193-4bec-a13a-9d201ba214d3",
           "width": 0,
           "x": 640,
@@ -3072,7 +3137,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "4cc5f70a-9c32-487d-bb6a-faf51f2b6229",
           "width": 0,
           "x": 1440,
@@ -3088,7 +3153,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "5ab5f2fa-bd58-483d-9407-7767e3b40980",
           "width": 0,
           "x": 1504,
@@ -3104,7 +3169,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "885c98b3-34ed-4f15-ae36-41e3a9a72601",
           "width": 0,
           "x": 1216,
@@ -3120,7 +3185,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "9606861f-54bc-47c7-8951-13e3f9a3d95b",
           "width": 0,
           "x": 1056,
@@ -3136,7 +3201,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "79bef37b-f502-4623-b0c5-6ea97b5ef5c4",
           "width": 0,
           "x": 1120,
@@ -3152,7 +3217,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "e0583ff1-6f38-4788-a360-e16200bc1241",
           "width": 0,
           "x": 800,
@@ -3168,7 +3233,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "d547a640-a336-4a34-b246-b21c098a9337",
           "width": 0,
           "x": 736,
@@ -3184,7 +3249,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "c489fa23-dd75-4b6e-a17c-98e40823f85d",
           "width": 0,
           "x": 2016,
@@ -3200,7 +3265,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "03e1ab8c-67cf-4bfc-9dbd-d1352e20de3d",
           "width": 0,
           "x": 2144,
@@ -3216,7 +3281,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "persistentUuid": "df2974d7-c554-4913-a661-c791f4f47db1",
           "width": 0,
           "x": 1920,
@@ -3233,7 +3298,7 @@
           "height": 224,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite7",
+          "name": "Casinha",
           "persistentUuid": "6144f88c-f035-4eec-b971-52a7710aa161",
           "width": 224,
           "x": 224,
@@ -3283,10 +3348,10 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite8",
+          "name": "Toco",
           "persistentUuid": "51ce1951-474c-4721-8ad4-a1010393a10d",
           "width": 0,
-          "x": 416,
+          "x": 352,
           "y": 800,
           "zOrder": 101,
           "numberProperties": [],
@@ -3299,12 +3364,29 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite8",
+          "name": "Toco",
           "persistentUuid": "69e3065d-3494-4b0a-b44d-e8ce8e8956cf",
           "width": 0,
           "x": 578,
-          "y": 832,
+          "y": 768,
           "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Colisão",
+          "persistentUuid": "2b9c0a96-9cac-41f9-b2b1-51638415ea84",
+          "width": 32,
+          "x": 192,
+          "y": 96,
+          "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8378,7 +8460,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "cacto 3.png",
+                      "image": "assets\\cacto 3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8421,7 +8503,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Cacto_2",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8438,7 +8520,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "CACTO (2).png",
+                      "image": "assets\\CACTO (2).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8477,17 +8559,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -8509,7 +8580,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "CACTO MINI (2).png",
+                      "image": "assets\\CACTO MINI (2).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8552,7 +8623,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite3",
+          "name": "Pepitas",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8569,7 +8640,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "PEPITAS DE OURO (2).png",
+                      "image": "assets\\PEPITAS DE OURO (2).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8612,40 +8683,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite5",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite6",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite7",
+          "name": "Casinha",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8662,7 +8700,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "klipartz.com (1).png",
+                      "image": "assets\\klipartz.com (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8705,7 +8743,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite8",
+          "name": "Toco",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8722,7 +8760,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Toco.png",
+                      "image": "assets\\Toco.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8765,7 +8803,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite9",
+          "name": "Arvre",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8782,7 +8820,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Arvre.png",
+                      "image": "assets\\Arvre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8812,66 +8850,6 @@
                           {
                             "x": 3,
                             "y": 28
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite10",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "SEILA.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 11
-                          },
-                          {
-                            "x": 186,
-                            "y": 11
-                          },
-                          {
-                            "x": 186,
-                            "y": 250
-                          },
-                          {
-                            "x": 6,
-                            "y": 250
                           }
                         ]
                       ]
@@ -9482,6 +9460,25 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Colisão",
+          "texture": "Colisão",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9514,25 +9511,16 @@
                 "objectName": "Map3"
               },
               {
-                "objectName": "NewSprite3"
+                "objectName": "Pepitas"
               },
               {
-                "objectName": "NewSprite4"
+                "objectName": "Casinha"
               },
               {
-                "objectName": "NewSprite5"
+                "objectName": "Toco"
               },
               {
-                "objectName": "NewSprite6"
-              },
-              {
-                "objectName": "NewSprite7"
-              },
-              {
-                "objectName": "NewSprite8"
-              },
-              {
-                "objectName": "NewSprite9"
+                "objectName": "Arvre"
               },
               {
                 "objectName": "Map2"
@@ -9550,10 +9538,7 @@
                 "objectName": "cacto_fofis"
               },
               {
-                "objectName": "NewSprite"
-              },
-              {
-                "objectName": "NewSprite2"
+                "objectName": "Cacto_2"
               },
               {
                 "objectName": "GABRIEL"
@@ -9600,7 +9585,7 @@
             "objectName": "Soldado"
           },
           {
-            "objectName": "NewSprite10"
+            "objectName": "Colisão"
           }
         ]
       },
@@ -11518,6 +11503,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "Resizable",
@@ -19094,6 +19083,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -19103,6 +19093,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -19542,6 +19533,7 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
+              "choices": [],
               "name": "Animation"
             },
             {
@@ -19551,6 +19543,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -20944,6 +20937,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -20953,6 +20947,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -22007,6 +22002,7 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
+              "choices": [],
               "name": "Scale"
             },
             {
@@ -22016,6 +22012,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -22025,6 +22022,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -23046,6 +23044,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -23055,6 +23054,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -24726,6 +24726,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -26246,6 +26247,7 @@
               "extraInformation": [
                 "Label"
               ],
+              "choices": [],
               "name": "ShowLabel"
             },
             {
@@ -26516,7 +26518,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 397,
@@ -26778,7 +26781,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
@@ -28686,6 +28690,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -30337,6 +30342,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarLeftPadding"
             },
@@ -30349,6 +30355,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarTopPadding"
             },
@@ -30361,6 +30368,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarRightPadding"
             },
@@ -30373,6 +30381,7 @@
                 "Label",
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "BarBottomPadding"
             },
@@ -30439,6 +30448,7 @@
               "extraInformation": [
                 "Thumb"
               ],
+              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -30450,6 +30460,7 @@
               "extraInformation": [
                 "FillBar"
               ],
+              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorTarget"
             },
@@ -30461,6 +30472,7 @@
               "extraInformation": [
                 "Label"
               ],
+              "choices": [],
               "hidden": true,
               "name": "ShowLabel"
             },
@@ -30741,7 +30753,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
