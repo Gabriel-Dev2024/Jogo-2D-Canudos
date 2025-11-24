@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2368,7 +2368,7 @@
       {
         "file": "assets/NewTiledSprite4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite4.png\"}",
         "name": "NewTiledSprite4",
         "smoothed": false,
         "userAdded": false
@@ -2379,6 +2379,46 @@
         "kind": "json",
         "metadata": "{\"extension\":\".json\"}",
         "name": "Dialogue",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite5.png\"}",
+        "name": "NewTiledSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite6",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -2473,7 +2513,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7370816317994351,
+        "zoomFactor": 1.993459038490286,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4434,6 +4474,74 @@
           "x": 64,
           "y": 69,
           "zOrder": 156,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Antonio",
+          "persistentUuid": "7529e1a1-a567-4cdd-a48e-f146576ebee8",
+          "width": 64,
+          "x": 1120,
+          "y": 448,
+          "zOrder": 157,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 43,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Colisão",
+          "persistentUuid": "ddea5a1d-3049-4c8b-903e-4a04b723b4da",
+          "width": 29,
+          "x": 1134,
+          "y": 468,
+          "zOrder": 158,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 17,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextInteragir",
+          "persistentUuid": "b6dfd8f2-522f-4963-9396-8a4a732e970d",
+          "width": 116,
+          "x": 1094,
+          "y": 434,
+          "zOrder": 159,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "QuestColisao",
+          "persistentUuid": "8aa41623-c9bb-4a0e-b462-be58f854d3a6",
+          "width": 64,
+          "x": 1120,
+          "y": 448,
+          "zOrder": 160,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11306,17 +11414,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite6",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "NewSprite7",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -11399,6 +11496,169 @@
             "PreviousHighValueDuration": 0,
             "ShowLabel": false
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Antonio",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.24,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite45",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 10
+                          },
+                          {
+                            "x": 20,
+                            "y": 10
+                          },
+                          {
+                            "x": 20,
+                            "y": 32
+                          },
+                          {
+                            "x": 7,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite46",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 10
+                          },
+                          {
+                            "x": 20,
+                            "y": 10
+                          },
+                          {
+                            "x": 20,
+                            "y": 32
+                          },
+                          {
+                            "x": 7,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite47",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 10
+                          },
+                          {
+                            "x": 20,
+                            "y": 10
+                          },
+                          {
+                            "x": 20,
+                            "y": 32
+                          },
+                          {
+                            "x": 7,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TextInteragir",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Pressione [E]",
+            "opacity": 255,
+            "scale": 0.7,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "QuestColisao",
+          "texture": "NewTiledSprite6",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -11514,6 +11774,9 @@
             "objectName": "Colisão"
           },
           {
+            "objectName": "QuestColisao"
+          },
+          {
             "objectName": "NewSprite5"
           },
           {
@@ -11526,10 +11789,13 @@
             "objectName": "NewSprite3"
           },
           {
-            "objectName": "NewSprite6"
+            "objectName": "NewSprite7"
           },
           {
-            "objectName": "NewSprite7"
+            "objectName": "Antonio"
+          },
+          {
+            "objectName": "TextInteragir"
           }
         ]
       },
@@ -11568,6 +11834,22 @@
               },
               "parameters": [
                 "Colisão"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextInteragir"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "QuestColisao"
               ]
             }
           ]
@@ -13023,6 +13305,7 @@
           "comment": "Wave de inimigos"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13242,6 +13525,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13348,6 +13632,46 @@
                     "\"SpawnTimer\""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pegar Quest"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Test",
+                "QuestColisao",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextInteragir",
+                ""
               ]
             }
           ]
@@ -13557,6 +13881,10 @@
         {
           "name": "Sticker",
           "type": "Sticker::Sticker"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
@@ -17385,7 +17713,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6903856367178065,
+        "zoomFactor": 0.39286176952500823,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -17613,6 +17941,39 @@
           "x": 736,
           "y": -224,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 540,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background1",
+          "persistentUuid": "a23f497d-8c85-44ac-b228-3fae9dc3df34",
+          "width": 960,
+          "x": -256,
+          "y": -28,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background2",
+          "persistentUuid": "5a642ea0-2ed1-4bb0-a695-7d8457414db4",
+          "width": 0,
+          "x": 704,
+          "y": -29,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17923,6 +18284,126 @@
             "BarBottomPadding": 6,
             "LabelMargin": 6
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Captura de tela 2025-09-25 194413.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 967,
+                            "y": 0
+                          },
+                          {
+                            "x": 967,
+                            "y": 540
+                          },
+                          {
+                            "x": 0,
+                            "y": 540
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Captura de tela 2025-09-25 194522.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 967,
+                            "y": 0
+                          },
+                          {
+                            "x": 967,
+                            "y": 541
+                          },
+                          {
+                            "x": 0,
+                            "y": 541
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -17960,6 +18441,12 @@
           },
           {
             "objectName": "MusicSlider"
+          },
+          {
+            "objectName": "Background1"
+          },
+          {
+            "objectName": "Background2"
           }
         ]
       },
@@ -18186,43 +18673,11 @@
           "actions": [
             {
               "type": {
-                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-              },
-              "parameters": [
-                "Transition",
-                "FlashTransitionPainter",
-                "\"0;0;0\"",
-                "1",
-                "\"Circular\"",
-                "\"Forward\"",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
-              },
-              "parameters": [
-                "Transition",
-                "FlashTransitionPainter",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Cena sem título\"",
+                "\"Introdução\"",
                 ""
               ]
             }
@@ -18500,6 +18955,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
         },
@@ -18576,6 +19035,72 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "2ca3ea9e-049a-4b0d-8408-bd8d92b2e95d",
+          "width": 160,
+          "x": 272,
+          "y": 65,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text2",
+          "persistentUuid": "b8031aec-56f0-4810-bc13-2e4ca861ef8f",
+          "width": 488,
+          "x": 110,
+          "y": 148,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Avancar",
+          "persistentUuid": "bb2ac5d5-796e-440e-a34b-ad681cc26f9f",
+          "width": 0,
+          "x": 293,
+          "y": 438,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Transition",
+          "persistentUuid": "e747291a-e2a1-4a92-ade7-60f9d7d8921c",
+          "width": 0,
+          "x": 576,
+          "y": -96,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18592,13 +19117,93 @@
         },
         {
           "assetStoreId": "",
-          "name": "Tittle",
+          "name": "Text",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Ano 1896 no Interior da Bahia",
+            "text": "Ano de 1896",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBBText",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Text2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Numa comunidade chamada Canudos\n\nno Interior da Bahia onde vivia\n\num homem que lutava para \n\nsobreviver ate os soldados do exercito\n\n brasileiro invadirem sua comunidade...",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Avancar",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Proximo",
             "opacity": 255,
             "scale": 1,
             "fontSize": 20,
@@ -18617,7 +19222,16 @@
             "objectName": "Preto"
           },
           {
-            "objectName": "Tittle"
+            "objectName": "Text"
+          },
+          {
+            "objectName": "Avancar"
+          },
+          {
+            "objectName": "Text2"
+          },
+          {
+            "objectName": "NewBBText"
           }
         ]
       },
@@ -18634,31 +19248,120 @@
               ]
             }
           ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Avancar",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                "1",
+                "\"Circular\"",
+                "\"Forward\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "Dialogue"
+                "\"Cena sem título\"",
+                ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "ButtonStates::ButtonFSM::IsHovered"
               },
               "parameters": [
-                "",
-                "\"typewriter\""
+                "Avancar",
+                "ButtonFSM",
+                ""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "\"Begin\""
+                "Avancar",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "Avancar",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Avancar",
+                "Effect",
+                "\"Effect\"",
+                "no"
               ]
             }
           ]
@@ -18731,6 +19434,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
