@@ -2420,6 +2420,30 @@
         "name": "NewTiledSprite6",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/jogo balão.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\jogo balão.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/jogo_balão-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\jogo_balão-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/balao-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\balao-removebg-preview.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2513,7 +2537,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.993459038490286,
+        "zoomFactor": 0.9610368693715147,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4542,6 +4566,40 @@
           "x": 1120,
           "y": 448,
           "zOrder": 160,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Balao",
+          "persistentUuid": "909036c0-68b5-4356-960b-d2408ce62363",
+          "width": 136,
+          "x": 1020,
+          "y": 353,
+          "zOrder": 162,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextDialogue",
+          "persistentUuid": "94003291-d547-4f0e-878d-263e8099f4f7",
+          "width": 99,
+          "x": 1043,
+          "y": 376,
+          "zOrder": 163,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11659,6 +11717,104 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Balao",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\balao-removebg-preview.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 37
+                          },
+                          {
+                            "x": 648,
+                            "y": 37
+                          },
+                          {
+                            "x": 648,
+                            "y": 377
+                          },
+                          {
+                            "x": 31,
+                            "y": 377
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewBitmapText",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "This text use the default bitmap font.\nUse a custom Bitmap Font to create your own texts.",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "TextDialogue",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Nos ajude, derrote os invasores",
+            "opacity": 255,
+            "scale": 0.7,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited3.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11707,6 +11863,9 @@
               },
               {
                 "objectName": "Map2"
+              },
+              {
+                "objectName": "NewBitmapText"
               },
               {
                 "objectName": "Map1"
@@ -11796,6 +11955,12 @@
           },
           {
             "objectName": "TextInteragir"
+          },
+          {
+            "objectName": "TextDialogue"
+          },
+          {
+            "objectName": "Balao"
           }
         ]
       },
@@ -11850,6 +12015,22 @@
               },
               "parameters": [
                 "QuestColisao"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextDialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Balao"
               ]
             }
           ]
@@ -13674,7 +13855,92 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Balao",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TextDialogue",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Test",
+                "QuestColisao",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextInteragir"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextDialogue"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Balao"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
